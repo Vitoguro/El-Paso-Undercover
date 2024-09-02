@@ -41,6 +41,12 @@
 					"cost": "+1500"
 				},
 				{
+					"id": "fhMHrGUHi53SzOxN3",
+					"name": "Night Vision Enchantment",
+					"cost_type": "to_final_base_cost",
+					"cost": "+3000"
+				},
+				{
 					"id": "FPz1J_Q-Weu6qiw5l",
 					"name": "Ammo",
 					"children": [
@@ -57,14 +63,22 @@
 							"notes": "armor divisor (2), Pistol, Rifle or SMG",
 							"cost_type": "to_base_cost",
 							"cost": "+29 CF"
+						},
+						{
+							"id": "flMkw4Ll7YHzZ279I",
+							"name": "Essential Propellant",
+							"notes": "+2 dmg per 3d or fraction thereof, +20% to range and ST (min +2ST). Mutually exclusive with extra-powerful and match-grade. Once Fired, Ammo doesn't count as magical. Pistol, Rifle or SMG",
+							"cost_type": "to_base_cost",
+							"cost": "+3 CF"
+						},
+						{
+							"id": "fQweN7166i59qu85g",
+							"name": "Puissant",
+							"notes": "+1 to damage, count as magical for penetrating force dome, triggering vulnerability to magical damage. Can be combined with essential propellant, extra-powerful or match-grade",
+							"cost_type": "to_base_cost",
+							"cost": "+29 CF"
 						}
 					]
-				},
-				{
-					"id": "fhMHrGUHi53SzOxN3",
-					"name": "Night Vision Enchantment",
-					"cost_type": "to_final_base_cost",
-					"cost": "+3000"
 				}
 			]
 		},
@@ -114,6 +128,71 @@
 					"notes": "x1.5 damage and range",
 					"cost_type": "to_base_cost",
 					"cost": "+19 CF"
+				}
+			]
+		},
+		{
+			"id": "FfApYYIyD-3LQK4Yr",
+			"name": "Depleted Necronium",
+			"children": [
+				{
+					"id": "feaoEbdb8dc1LP84c",
+					"source": {
+						"library": "/El Paso Technomancer",
+						"path": "Depleted Necronium.eqm",
+						"id": "f-sI2JqS7pfKrsUbU"
+					},
+					"name": "SPDN (Spell-Piercing Depleted Necronium) Ammo",
+					"notes": "(2), pi++ becomes pi+, pi+ becomes pi, and pi becomes pi- (no effect on pi-)",
+					"cost_type": "to_base_cost",
+					"cost": "+99 CF"
+				},
+				{
+					"id": "fHbikQoX09y965IKr",
+					"source": {
+						"library": "Vitoguro/El Paso Undercover",
+						"path": "Depleted Necronium.eqm",
+						"id": "fxT-zyzaOw5rdGR4g"
+					},
+					"name": "Depleted Necronium (DN) Melee",
+					"cost_type": "to_base_cost",
+					"weight_type": "to_base_weight",
+					"cost": "+99 CF",
+					"weight": "x2"
+				}
+			]
+		},
+		{
+			"id": "FKQ6gvKhxDpbnprDR",
+			"name": "Special Ammo",
+			"children": [
+				{
+					"id": "fQKdx7rfiGTkc4xYu",
+					"name": "Armor-Piercing",
+					"notes": "(2), pi++ becomes pi+, pi+ becomes pi, and pi becomes pi- (no effect on pi-). Pistol, Rifle or SMG",
+					"cost_type": "to_base_cost",
+					"cost": "+1 CF"
+				},
+				{
+					"id": "fQSit_gA71NEjo0FH",
+					"name": "Extra-Powerful",
+					"notes": "Add +1 to damage per three dice or fraction thereof. Add 10% to Range and ST (minimum +1 ST). Pistol, Rifle or SMG",
+					"cost_type": "to_base_cost",
+					"cost": "+1 CF"
+				},
+				{
+					"id": "fk-5yrZ4XYlkop1iU",
+					"name": "Hollow-Point",
+					"notes": "Change damage type from pi- to pi, pi to pi+, or pi+ to pi++ (no effect on pi++), but add armor divisor (0.5). Pistol, Rifle or SMG",
+					"cost_type": "to_base_cost",
+					"cost": "+0 CF"
+				},
+				{
+					"id": "fUMzTMBSmbdKMDFwD",
+					"name": "Match-Grade",
+					"notes": "If weapon has Acc 4 or better, adds another +1 Acc. Any pistol or sniper rifle",
+					"cost_type": "to_base_cost",
+					"cost": "+1 CF"
 				}
 			]
 		}

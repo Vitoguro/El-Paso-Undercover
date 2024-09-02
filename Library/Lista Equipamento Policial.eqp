@@ -47,11 +47,191 @@
 						"extended_value": 117.5,
 						"extended_weight": "0.075 lb"
 					}
+				},
+				{
+					"id": "exCW-zMxNeuC63liF",
+					"description": "Paut",
+					"reference": "T52",
+					"reference_highlight": "Paut",
+					"notes": "one dose recovers 1 energy from spells. A wizard can drink 1 dose per second. Max doses per day = 6xST",
+					"tech_level": "(7+1)^",
+					"legality_class": "2",
+					"tags": [
+						"Potion"
+					],
+					"value": 402.4,
+					"weight": "0.25 lb",
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"extended_value": 402.4,
+						"extended_weight": "0.25 lb"
+					}
+				},
+				{
+					"id": "eGnqF7GaKbfvIykRy",
+					"description": "Ares Elixir Potion (Battle Potion)",
+					"reference": "M214, TM49",
+					"reference_highlight": "Battle",
+					"notes": "Adds +1d6 to DX",
+					"tech_level": "(7+1)^",
+					"legality_class": "2",
+					"tags": [
+						"Potion"
+					],
+					"value": 302.6,
+					"weight": "0.25 lb",
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"extended_value": 302.6,
+						"extended_weight": "0.25 lb"
+					}
+				},
+				{
+					"id": "eYXDC24S6sWyVzpA0",
+					"description": "Antaeus Elixir Potion (Endurance Potion)",
+					"reference": "M214, TM49",
+					"reference_highlight": "Endurance",
+					"notes": "no natural FP drain. When duration ends, FP is reduced to 0",
+					"tech_level": "(7+1)^",
+					"legality_class": "4",
+					"tags": [
+						"Potion"
+					],
+					"value": 606.6,
+					"weight": "0.25 lb",
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"extended_value": 606.6,
+						"extended_weight": "0.25 lb"
+					}
+				},
+				{
+					"id": "eLx0vvW3s1SlbKbhe",
+					"description": "Orion Elixir Potion (Fetching and Carrying Potion)",
+					"reference": "M214, TM49",
+					"reference_highlight": "Fetching and Carrying",
+					"notes": "encumbrance limit x 4",
+					"tech_level": "(7+1)^",
+					"legality_class": "4",
+					"tags": [
+						"Potion"
+					],
+					"value": 401.1,
+					"weight": "0.25 lb",
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"extended_value": 401.1,
+						"extended_weight": "0.25 lb"
+					}
+				},
+				{
+					"id": "ezGxQ-BO3Rs5zrltU",
+					"description": "Achilles Elixir Potion (Invulnerability Potion)",
+					"reference": "M214, TM49",
+					"reference_highlight": "Invulnerability",
+					"notes": "+3 DR. Does not protect eyes",
+					"tech_level": "(7+1)^",
+					"legality_class": "2",
+					"tags": [
+						"Potion"
+					],
+					"value": 2012.6,
+					"weight": "0.25 lb",
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"extended_value": 2012.6,
+						"extended_weight": "0.25 lb"
+					}
+				},
+				{
+					"id": "e456BhVFeaBQN9TBF",
+					"description": "Atalanta Elixir Potion (Speed Potion)",
+					"reference": "M214, TM49",
+					"reference_highlight": "Speed",
+					"notes": "+1 basic speed and move. Up to 3 can be taken at once, but duration is rolled separately for each",
+					"tech_level": "(7+1)^",
+					"legality_class": "2",
+					"tags": [
+						"Potion"
+					],
+					"value": 403.3,
+					"weight": "0.25 lb",
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"extended_value": 403.3,
+						"extended_weight": "0.25 lb"
+					}
+				},
+				{
+					"id": "ebrSt34BwLi5pDXsr",
+					"description": "Hermes Elixir Potion (Stealth Potion)",
+					"reference": "M214, TM49",
+					"reference_highlight": "Stealth",
+					"notes": "+1d6 to stealth and climbing",
+					"tech_level": "(7+1)^",
+					"legality_class": "3",
+					"tags": [
+						"Potion"
+					],
+					"value": 603.9,
+					"weight": "0.25 lb",
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"extended_value": 603.9,
+						"extended_weight": "0.25 lb"
+					}
+				},
+				{
+					"id": "e-N2cJwTLckO7IRcv",
+					"description": "Heracles Elixir Potion (Strenght Potion)",
+					"reference": "M214, TM49",
+					"reference_highlight": "Strenght",
+					"notes": "+1d6 to ST. Does not give extra HP",
+					"tech_level": "(7+1)^",
+					"legality_class": "3",
+					"tags": [
+						"Potion"
+					],
+					"value": 202.6,
+					"weight": "0.25 lb",
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"extended_value": 202.6,
+						"extended_weight": "0.25 lb"
+					}
+				},
+				{
+					"id": "e9Ghuw9lWclIQo67E",
+					"description": "Janus Elixir Potion (Alchemical Antidote Potion)",
+					"reference": "M217, TM49",
+					"reference_highlight": "Alchemical Antidote",
+					"notes": "counteracts alchemical products",
+					"tech_level": "(7+1)^",
+					"legality_class": "4",
+					"tags": [
+						"Potion"
+					],
+					"value": 503.2,
+					"weight": "0.25 lb",
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"extended_value": 503.2,
+						"extended_weight": "0.25 lb"
+					}
 				}
 			],
 			"calc": {
-				"extended_value": 221,
-				"extended_weight": "0.325 lb"
+				"extended_value": 5659.3,
+				"extended_weight": "2.575 lb"
 			}
 		},
 		{
@@ -66,6 +246,7 @@
 					"description": "Pocket Spraycan",
 					"reference": "TM80",
 					"reference_highlight": "Pocket Spraycan",
+					"notes": "1 carga de aerossol ao todo",
 					"tech_level": "(7+1)^",
 					"legality_class": "4",
 					"tags": [
@@ -75,7 +256,7 @@
 					"weight": "0.25 lb",
 					"weapons": [
 						{
-							"id": "WHp_GQEK4fuAoAA8f",
+							"id": "Ws-kOEazp2owpTmjA",
 							"damage": {
 								"type": "Special"
 							},
@@ -117,6 +298,7 @@
 					"description": "Spraygun",
 					"reference": "TM80",
 					"reference_highlight": "Spraygun",
+					"notes": "10 cargas de aerossol ao todo",
 					"tech_level": "(7+1)^",
 					"legality_class": "4",
 					"tags": [
@@ -126,7 +308,7 @@
 					"weight": "1 lb",
 					"weapons": [
 						{
-							"id": "W4KjIf8pxpJrcSP1r",
+							"id": "WYXOi2Y5mXyRf9-i_",
 							"damage": {
 								"type": "Special"
 							},
@@ -424,11 +606,105 @@
 						"extended_value": 19500,
 						"extended_weight": "1 lb"
 					}
+				},
+				{
+					"id": "EZkxYNinPYvv0oYGb",
+					"description": "Trajes de Proteção",
+					"legality_class": "4",
+					"quantity": 1,
+					"equipped": true,
+					"children": [
+						{
+							"id": "eTOD3oJRo7IpTN5yY",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Action\\Action Equipment.eqp",
+								"id": "eXbVOF3YyD_cLVhMP"
+							},
+							"description": "Vest, Concealable",
+							"reference": "ACT1:31",
+							"notes": "Flexible. DR+7 vs. piercing and cutting damage.",
+							"tags": [
+								"Armor"
+							],
+							"value": 1000,
+							"weight": "2 lb",
+							"features": [
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"torso"
+									],
+									"amount": 5
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"vitals"
+									],
+									"amount": 5
+								}
+							],
+							"quantity": 1,
+							"calc": {
+								"extended_value": 1000,
+								"extended_weight": "2 lb"
+							}
+						},
+						{
+							"id": "EXgEOwDLU__ks0548",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Action\\Action Equipment.eqp",
+								"id": "ER2q-LoBPIf9PTvz4"
+							},
+							"description": "Vest, Assault",
+							"reference": "ACT1:31",
+							"notes": "Flexible. DR+7 vs. piercing and cutting damage. Not concealable as clothing: common reaction -2.",
+							"tags": [
+								"Armor"
+							],
+							"value": 900,
+							"weight": "8 lb",
+							"features": [
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"torso"
+									],
+									"amount": 5
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"vitals"
+									],
+									"amount": 5
+								},
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"groin"
+									],
+									"amount": 5
+								}
+							],
+							"quantity": 1,
+							"calc": {
+								"extended_value": 900,
+								"extended_weight": "8 lb"
+							}
+						}
+					],
+					"calc": {
+						"extended_value": 1900,
+						"extended_weight": "10 lb"
+					}
 				}
 			],
 			"calc": {
-				"extended_value": 36345,
-				"extended_weight": "5 lb"
+				"extended_value": 38245,
+				"extended_weight": "15 lb"
 			}
 		},
 		{
@@ -441,6 +717,7 @@
 				{
 					"id": "EEURxJSiQCCecsH3y",
 					"description": "Normal",
+					"notes": "Magazine: um cartucho cheio de balas, é necessário pegar 1 e somente 1 para cada arma\nReload: uma recarga reserva desse cartucho, pode pegar quantas o peso permitir\n\nex: botar no inventário 1 magazine de 9mm e 4 recargas significa que o jogador pode recarregar 4 vezes além do número original de balas que estava no primeiro cartucho\n\nEscopeta não usa cartucho, apenas recargas da munição",
 					"legality_class": "4",
 					"quantity": 1,
 					"equipped": true,
@@ -2231,6 +2508,240 @@
 			"equipped": true,
 			"children": [
 				{
+					"id": "efzauo0Ho5EWUmOjP",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Action\\Action Equipment.eqp",
+						"id": "eSIuSUWYrcCQjbofh"
+					},
+					"description": "Police Baton",
+					"reference": "ACT1:33",
+					"notes": "Holdout -2.",
+					"tags": [
+						"Weapons"
+					],
+					"value": 20,
+					"weight": "1 lb",
+					"weapons": [
+						{
+							"id": "w0AbkX4V93eQBkqYT",
+							"damage": {
+								"type": "cr",
+								"st": "sw"
+							},
+							"strength": "6",
+							"usage": "swing",
+							"reach": "1",
+							"parry": "0",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Shortsword"
+								},
+								{
+									"type": "dx",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Broadsword",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Jitte/Sai",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Knife",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Saber",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Smallsword",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Tonfa",
+									"modifier": -3
+								}
+							],
+							"calc": {
+								"damage": "sw cr"
+							}
+						},
+						{
+							"id": "wVJb7PFilu8WRWlyt",
+							"damage": {
+								"type": "cr",
+								"st": "thr"
+							},
+							"strength": "6",
+							"usage": "thrust",
+							"reach": "1",
+							"parry": "0",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Shortsword"
+								},
+								{
+									"type": "dx",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Broadsword",
+									"modifier": -2
+								},
+								{
+									"type": "skill",
+									"name": "Jitte/Sai",
+									"modifier": -3
+								},
+								{
+									"type": "skill",
+									"name": "Knife",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Saber",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Smallsword",
+									"modifier": -4
+								},
+								{
+									"type": "skill",
+									"name": "Tonfa",
+									"modifier": -3
+								}
+							],
+							"calc": {
+								"damage": "thr cr"
+							}
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 20,
+						"extended_weight": "1 lb"
+					}
+				},
+				{
+					"id": "eXdJNDGyd_tf3vF3i",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Action\\Action Equipment.eqp",
+						"id": "e8XIFcfW0-lWsOcYa"
+					},
+					"description": "Tonfa",
+					"reference": "ACT1:33",
+					"notes": "Holdout -3.",
+					"tags": [
+						"Weapons"
+					],
+					"value": 40,
+					"weight": "1.5 lb",
+					"weapons": [
+						{
+							"id": "wb4WfZyP3t-CqAfnb",
+							"damage": {
+								"type": "cr",
+								"st": "thr"
+							},
+							"usage": "Brawl",
+							"reach": "C",
+							"parry": "0",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Brawling"
+								},
+								{
+									"type": "dx"
+								}
+							],
+							"calc": {
+								"damage": "thr cr"
+							}
+						},
+						{
+							"id": "wP14-NDxmvlOZCElH",
+							"damage": {
+								"type": "cr",
+								"st": "thr"
+							},
+							"strength": "7",
+							"usage": "Lunge",
+							"reach": "C,1",
+							"parry": "0",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Tonfa"
+								},
+								{
+									"type": "dx",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Shortsword",
+									"modifier": -3
+								}
+							],
+							"calc": {
+								"damage": "thr cr"
+							}
+						},
+						{
+							"id": "wgW6uuAjzP_plUYQb",
+							"damage": {
+								"type": "cr",
+								"st": "sw"
+							},
+							"strength": "7",
+							"usage": "Swing",
+							"reach": "1",
+							"parry": "0",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Tonfa"
+								},
+								{
+									"type": "dx",
+									"modifier": -5
+								},
+								{
+									"type": "skill",
+									"name": "Shortsword",
+									"modifier": -3
+								}
+							],
+							"calc": {
+								"damage": "sw cr"
+							}
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 40,
+						"extended_weight": "1.5 lb"
+					}
+				},
+				{
 					"id": "eFAbi-EuIu1gAM--J",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
@@ -2339,8 +2850,8 @@
 				}
 			],
 			"calc": {
-				"extended_value": 4000,
-				"extended_weight": "2 lb"
+				"extended_value": 4060,
+				"extended_weight": "4.5 lb"
 			}
 		},
 		{
@@ -6158,6 +6669,89 @@
 			"calc": {
 				"extended_value": 6375,
 				"extended_weight": "0.002 lb"
+			}
+		},
+		{
+			"id": "Ep62eFRKcLgOGBGSE",
+			"description": "Granadas",
+			"legality_class": "4",
+			"quantity": 1,
+			"equipped": true,
+			"children": [
+				{
+					"id": "e7pVYa8m4iDKmWRGb",
+					"description": "Hand Grenade, Stun",
+					"reference": "ACT1:34, B277",
+					"notes": "Fuse 2",
+					"tech_level": "7",
+					"legality_class": "2",
+					"tags": [
+						"Missile Weapon"
+					],
+					"value": 30,
+					"weight": "1 lb",
+					"weapons": [
+						{
+							"id": "WB9R8Ehyeh4OAhNyX",
+							"damage": {
+								"type": ""
+							},
+							"range": "x3.5",
+							"rate_of_fire": "1",
+							"shots": "1",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Throwing"
+								}
+							]
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 30,
+						"extended_weight": "1 lb"
+					}
+				},
+				{
+					"id": "eDmlarD2UpSljtTgL",
+					"description": "Hand Grenade, Smoke",
+					"reference": "ACT1:34, B277",
+					"notes": "Fuse 2",
+					"tech_level": "7",
+					"legality_class": "2",
+					"tags": [
+						"Missile Weapon"
+					],
+					"value": 35,
+					"weight": "1 lb",
+					"weapons": [
+						{
+							"id": "WwIyi0Ze7ox8Qrc3g",
+							"damage": {
+								"type": ""
+							},
+							"range": "x3.5",
+							"rate_of_fire": "1",
+							"shots": "1",
+							"defaults": [
+								{
+									"type": "skill",
+									"name": "Throwing"
+								}
+							]
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 35,
+						"extended_weight": "1 lb"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 65,
+				"extended_weight": "2 lb"
 			}
 		}
 	]
