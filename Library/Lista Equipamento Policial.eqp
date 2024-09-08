@@ -344,11 +344,372 @@
 						"extended_value": 10,
 						"extended_weight": "1 lb"
 					}
+				},
+				{
+					"id": "eolwShcyQJ8gK8OQ0",
+					"description": "Badge",
+					"tech_level": "(7+1)^",
+					"legality_class": "3",
+					"value": 25,
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"extended_value": 25,
+						"extended_weight": "0 lb"
+					}
+				},
+				{
+					"id": "evufpUXLVwwBPNZCZ",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Action\\Action Equipment.eqp",
+						"id": "e96rQpyYN_OeA4OA-"
+					},
+					"description": "Handcuffs.",
+					"reference": "ACT1:29",
+					"notes": "DR4. HP6. -5 to Escape.",
+					"tags": [
+						"Security"
+					],
+					"value": 50,
+					"weight": "0.5 lb",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 50,
+						"extended_weight": "0.5 lb"
+					}
+				},
+				{
+					"id": "eW61DFAq299hutJYu",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Action\\Action Equipment.eqp",
+						"id": "e96rQpyYN_OeA4OA-"
+					},
+					"description": "Handcuffs.",
+					"reference": "ACT1:29",
+					"notes": "DR4. HP6. -5 to Escape.",
+					"tags": [
+						"Security"
+					],
+					"value": 50,
+					"weight": "0.5 lb",
+					"modifiers": [
+						{
+							"id": "flQ0KCvg7yz80ZRri",
+							"source": {
+								"library": "Vitoguro/El Paso Undercover",
+								"path": "Depleted Necronium.eqm",
+								"id": "fxT-zyzaOw5rdGR4g"
+							},
+							"name": "Depleted Necronium (DN) Melee",
+							"cost_type": "to_base_cost",
+							"weight_type": "to_base_weight",
+							"cost": "+99 CF",
+							"weight": "x2"
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 5000,
+						"extended_weight": "1 lb"
+					}
+				},
+				{
+					"id": "evaS-It_0JKzsEjdz",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Action\\Action Equipment.eqp",
+						"id": "elItN9ElfJsVbG3py"
+					},
+					"description": "Gloves, Sap",
+					"reference": "ACT1:31",
+					"notes": "Gives Bad Grip 1. Flexible.",
+					"tags": [
+						"Armor"
+					],
+					"value": 60,
+					"weight": "1 lb",
+					"weapons": [
+						{
+							"id": "wiQkUjnRW-VuWVq0i",
+							"damage": {
+								"type": "",
+								"st": "thr",
+								"base": "1"
+							},
+							"usage": "Punch",
+							"reach": "C",
+							"parry": "0",
+							"block": "0",
+							"defaults": [
+								{
+									"type": "dx"
+								},
+								{
+									"type": "skill",
+									"name": "Brawling"
+								},
+								{
+									"type": "skill",
+									"name": "Boxing"
+								},
+								{
+									"type": "skill",
+									"name": "Karate"
+								}
+							],
+							"calc": {
+								"damage": "thr+1"
+							}
+						}
+					],
+					"features": [
+						{
+							"type": "dr_bonus",
+							"locations": [
+								"hand"
+							],
+							"amount": 2
+						}
+					],
+					"quantity": 1,
+					"calc": {
+						"extended_value": 60,
+						"extended_weight": "1 lb"
+					}
+				},
+				{
+					"id": "e7w7GpsCZN8g8e-KA",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "High Tech\\High Tech Equipment.eqp",
+						"id": "eO56ZXNPACO7TP9d_"
+					},
+					"description": "Reel-to-Reel Tape Recorder, Miniature",
+					"reference": "HT41",
+					"notes": "2xXS/5hrs. Holdout -1.",
+					"tech_level": "7",
+					"legality_class": "3",
+					"tags": [
+						"General Equipment"
+					],
+					"value": 500,
+					"weight": "1 lb",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 500,
+						"extended_weight": "1 lb"
+					}
+				},
+				{
+					"id": "e4wAn4153IDQ8ocbu",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Action\\Action Equipment.eqp",
+						"id": "e8pnARxpuOemDsh40"
+					},
+					"description": "Flashlight, Mini",
+					"reference": "ACT1:29",
+					"notes": "5yd beam for 10hrs.",
+					"tags": [
+						"Light"
+					],
+					"value": 10,
+					"weight": "0.25 lb",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 10,
+						"extended_weight": "0.25 lb"
+					}
+				},
+				{
+					"id": "eXlfkLN4QTVM9-itK",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Action\\Action Equipment.eqp",
+						"id": "eyOC9ov5Sxc6LtUEB"
+					},
+					"description": "Flashlight, Heavy",
+					"reference": "ACT1:29",
+					"notes": "10yd. beam for 50 hours.",
+					"tags": [
+						"Light"
+					],
+					"value": 20,
+					"weight": "1 lb",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 20,
+						"extended_weight": "1 lb"
+					}
+				},
+				{
+					"id": "ek4K8vxYD78Wz34qM",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Action\\Action Equipment.eqp",
+						"id": "erUfGyhuZiGbKgCzh"
+					},
+					"description": "Radio, Compact",
+					"reference": "ACT1:28",
+					"notes": "2-mile range. Runs for 10 hours.",
+					"tags": [
+						"Communicators"
+					],
+					"value": 50,
+					"weight": "0.25 lb",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 50,
+						"extended_weight": "0.25 lb"
+					}
+				},
+				{
+					"id": "eGaHgCzRsWKYiDkkT",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Action\\Action Equipment.eqp",
+						"id": "edOPeRs2Xk9ld-sRi"
+					},
+					"description": "Lockpicks",
+					"reference": "ACT1:27",
+					"notes": "Basic equipment for lockpicking.",
+					"tags": [
+						"Burglary"
+					],
+					"value": 50,
+					"weight": "0.1 lb",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 50,
+						"extended_weight": "0.1 lb"
+					}
+				},
+				{
+					"id": "egqYMy-l5xP3_2ki-",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Action\\Action Equipment.eqp",
+						"id": "eTNtPI-3FSYvlfjAn"
+					},
+					"description": "Evidence Collection Kit",
+					"reference": "ACT1:29",
+					"notes": "Basic equipment.",
+					"tags": [
+						"Security"
+					],
+					"value": 150,
+					"weight": "10 lb",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 150,
+						"extended_weight": "10 lb"
+					}
+				},
+				{
+					"id": "eVqXRjHFH767mwkyU",
+					"description": "Barrier Tape",
+					"notes": "3\" wide, \"Crime Scene Do Not Enter\". 1000' rolls + dispenser",
+					"legality_class": "3",
+					"value": 25,
+					"weight": "2 lb",
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"extended_value": 25,
+						"extended_weight": "2 lb"
+					}
+				},
+				{
+					"id": "ecnPOP959PjrguWg7",
+					"description": "Crime Scene Placard",
+					"notes": "26 letters",
+					"legality_class": "4",
+					"value": 100,
+					"weight": "2 lb",
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"extended_value": 100,
+						"extended_weight": "2 lb"
+					}
+				},
+				{
+					"id": "esCRXXdwx_zDCi3-F",
+					"description": "Crime Scene Placard",
+					"notes": "15 numbers",
+					"legality_class": "4",
+					"value": 50,
+					"weight": "2 lb",
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"extended_value": 50,
+						"extended_weight": "2 lb"
+					}
+				},
+				{
+					"id": "e0ooe3e-82qJBPOy6",
+					"description": "Evidence Bag",
+					"legality_class": "4",
+					"value": 0.2,
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"extended_value": 0.2,
+						"extended_weight": "0 lb"
+					}
+				},
+				{
+					"id": "eHO-Sboad-uIx4SNO",
+					"description": "Evidence Tube (Small)",
+					"legality_class": "4",
+					"value": 1.25,
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"extended_value": 1.25,
+						"extended_weight": "0 lb"
+					}
+				},
+				{
+					"id": "eWYsgxle5a-m7hVsm",
+					"description": "Evidence Tube (Large)",
+					"legality_class": "4",
+					"value": 1.875,
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"extended_value": 1.875,
+						"extended_weight": "0 lb"
+					}
+				},
+				{
+					"id": "eTIm7gKLxgiEQsmPf",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "High Tech\\High Tech Equipment.eqp",
+						"id": "evkmUIOl2TfDNitJv"
+					},
+					"description": "Fingerprint Kit",
+					"reference": "HT217",
+					"tech_level": "6",
+					"tags": [
+						"Enforcement and Coercion"
+					],
+					"value": 50,
+					"weight": "1 lb",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 50,
+						"extended_weight": "1 lb"
+					}
 				}
 			],
 			"calc": {
-				"extended_value": 15,
-				"extended_weight": "1.25 lb"
+				"extended_value": 6158.325,
+				"extended_weight": "23.35 lb"
 			}
 		},
 		{
@@ -652,6 +1013,36 @@
 							}
 						},
 						{
+							"id": "EpRLiWnDr-1J6Ojqv",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "Action\\Action Equipment.eqp",
+								"id": "ETdMnFpnC4OcPipst"
+							},
+							"description": "Leggings, Ballistic",
+							"reference": "ACT1:31",
+							"notes": "Flexible. Front protection only. DR+7 vs. piercing and cutting attacks. Not concealable as clothing: common reaction -2.",
+							"tags": [
+								"Armor"
+							],
+							"value": 400,
+							"weight": "8 lb",
+							"features": [
+								{
+									"type": "dr_bonus",
+									"locations": [
+										"leg"
+									],
+									"amount": 5
+								}
+							],
+							"quantity": 1,
+							"calc": {
+								"extended_value": 400,
+								"extended_weight": "8 lb"
+							}
+						},
+						{
 							"id": "EXgEOwDLU__ks0548",
 							"source": {
 								"library": "richardwilkes/gcs_master_library",
@@ -697,14 +1088,14 @@
 						}
 					],
 					"calc": {
-						"extended_value": 1900,
-						"extended_weight": "10 lb"
+						"extended_value": 2300,
+						"extended_weight": "18 lb"
 					}
 				}
 			],
 			"calc": {
-				"extended_value": 38245,
-				"extended_weight": "15 lb"
+				"extended_value": 38645,
+				"extended_weight": "23 lb"
 			}
 		},
 		{
