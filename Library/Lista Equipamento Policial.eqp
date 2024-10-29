@@ -21,6 +21,7 @@
 					],
 					"value": 103.5,
 					"weight": "0.25 lb",
+					"vtt_notes": "[+1d healing]",
 					"quantity": 1,
 					"equipped": true,
 					"calc": {
@@ -976,126 +977,343 @@
 					"equipped": true,
 					"children": [
 						{
-							"id": "eTOD3oJRo7IpTN5yY",
-							"source": {
-								"library": "richardwilkes/gcs_master_library",
-								"path": "Action\\Action Equipment.eqp",
-								"id": "eXbVOF3YyD_cLVhMP"
-							},
-							"description": "Vest, Concealable",
-							"reference": "ACT1:31",
-							"notes": "Flexible. DR+7 vs. piercing and cutting damage.",
-							"tags": [
-								"Armor"
-							],
-							"value": 1000,
-							"weight": "2 lb",
-							"features": [
+							"id": "E4vThGnpphpd0HtQu",
+							"description": "Coletes",
+							"legality_class": "4",
+							"quantity": 1,
+							"equipped": true,
+							"children": [
 								{
-									"type": "dr_bonus",
-									"locations": [
-										"torso"
+									"id": "eTOD3oJRo7IpTN5yY",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Action\\Action Equipment.eqp",
+										"id": "eXbVOF3YyD_cLVhMP"
+									},
+									"description": "Vest, Concealable",
+									"reference": "ACT1:31",
+									"notes": "Flexible. DR+7 vs. piercing and cutting damage.",
+									"tags": [
+										"Armor"
 									],
-									"amount": 5
-								},
-								{
-									"type": "dr_bonus",
-									"locations": [
-										"vitals"
+									"value": 1000,
+									"weight": "2 lb",
+									"features": [
+										{
+											"type": "dr_bonus",
+											"locations": [
+												"torso"
+											],
+											"amount": 5
+										},
+										{
+											"type": "dr_bonus",
+											"locations": [
+												"vitals"
+											],
+											"amount": 5
+										}
 									],
-									"amount": 5
+									"quantity": 1,
+									"calc": {
+										"extended_value": 1000,
+										"extended_weight": "2 lb"
+									}
 								}
 							],
-							"quantity": 1,
 							"calc": {
 								"extended_value": 1000,
 								"extended_weight": "2 lb"
 							}
 						},
 						{
-							"id": "EpRLiWnDr-1J6Ojqv",
-							"source": {
-								"library": "richardwilkes/gcs_master_library",
-								"path": "Action\\Action Equipment.eqp",
-								"id": "ETdMnFpnC4OcPipst"
-							},
-							"description": "Leggings, Ballistic",
-							"reference": "ACT1:31",
-							"notes": "Flexible. Front protection only. DR+7 vs. piercing and cutting attacks. Not concealable as clothing: common reaction -2.",
-							"tags": [
-								"Armor"
-							],
-							"value": 400,
-							"weight": "8 lb",
-							"features": [
-								{
-									"type": "dr_bonus",
-									"locations": [
-										"leg"
-									],
-									"amount": 5
-								}
-							],
+							"id": "Eq5cGQvFJ6GlgkVlh",
+							"description": "SWAT",
+							"legality_class": "4",
 							"quantity": 1,
-							"calc": {
-								"extended_value": 400,
-								"extended_weight": "8 lb"
-							}
-						},
-						{
-							"id": "EXgEOwDLU__ks0548",
-							"source": {
-								"library": "richardwilkes/gcs_master_library",
-								"path": "Action\\Action Equipment.eqp",
-								"id": "ER2q-LoBPIf9PTvz4"
-							},
-							"description": "Vest, Assault",
-							"reference": "ACT1:31",
-							"notes": "Flexible. DR+7 vs. piercing and cutting damage. Not concealable as clothing: common reaction -2.",
-							"tags": [
-								"Armor"
-							],
-							"value": 900,
-							"weight": "8 lb",
-							"features": [
+							"equipped": true,
+							"children": [
 								{
-									"type": "dr_bonus",
-									"locations": [
-										"torso"
+									"id": "EhoarqHRPVuePoHor",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Action\\Action Equipment.eqp",
+										"id": "EH9bLYQOBLu0xqVa7"
+									},
+									"description": "Boots, Reinforced",
+									"reference": "ACT1:31",
+									"notes": "DR+1 vs. attacks from underfoot.",
+									"tags": [
+										"Armor"
 									],
-									"amount": 5
+									"value": 75,
+									"weight": "3 lb",
+									"weapons": [
+										{
+											"id": "w_cmYEw_UHnF5GHk4",
+											"damage": {
+												"type": "",
+												"st": "thr",
+												"base": "1"
+											},
+											"usage": "Kick",
+											"reach": "C",
+											"defaults": [
+												{
+													"type": "dx"
+												},
+												{
+													"type": "skill",
+													"name": "Brawling"
+												},
+												{
+													"type": "skill",
+													"name": "Karate"
+												}
+											],
+											"calc": {
+												"damage": "thr+1"
+											}
+										}
+									],
+									"quantity": 1,
+									"calc": {
+										"extended_value": 75,
+										"extended_weight": "3 lb"
+									}
 								},
 								{
-									"type": "dr_bonus",
-									"locations": [
-										"vitals"
+									"id": "enpkUpGzGc7FRoVLf",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Action\\Action Equipment.eqp",
+										"id": "esSmFMzPIG3Ho5i6L"
+									},
+									"description": "Sleeves, Ballistic",
+									"reference": "ACT1:31",
+									"notes": "Flexible. DR+4 vs. piercing and cutting damage. Not concealable as clothing: common reaction -2.",
+									"tags": [
+										"Armor"
 									],
-									"amount": 5
+									"value": 200,
+									"weight": "5 lb",
+									"features": [
+										{
+											"type": "dr_bonus",
+											"locations": [
+												"arm"
+											],
+											"amount": 2
+										}
+									],
+									"quantity": 1,
+									"calc": {
+										"extended_value": 200,
+										"extended_weight": "5 lb"
+									}
 								},
 								{
-									"type": "dr_bonus",
-									"locations": [
-										"groin"
+									"id": "EM_WFs6k-hT_dG0jk",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Action\\Action Equipment.eqp",
+										"id": "E2zAZXG1y6tTFbwdk"
+									},
+									"description": "Helmet, Ballistic",
+									"reference": "ACT1:31",
+									"notes": "Not concealable as clothing: common reaction -2.",
+									"tags": [
+										"Armor"
 									],
-									"amount": 5
+									"value": 250,
+									"weight": "3 lb",
+									"features": [
+										{
+											"type": "dr_bonus",
+											"locations": [
+												"skull"
+											],
+											"amount": 12
+										}
+									],
+									"quantity": 1,
+									"calc": {
+										"extended_value": 250,
+										"extended_weight": "3 lb"
+									}
+								},
+								{
+									"id": "EpRLiWnDr-1J6Ojqv",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Action\\Action Equipment.eqp",
+										"id": "ETdMnFpnC4OcPipst"
+									},
+									"description": "Leggings, Ballistic",
+									"reference": "ACT1:31",
+									"notes": "Flexible. Front protection only. DR+7 vs. piercing and cutting attacks. Not concealable as clothing: common reaction -2.",
+									"tags": [
+										"Armor"
+									],
+									"value": 400,
+									"weight": "8 lb",
+									"features": [
+										{
+											"type": "dr_bonus",
+											"locations": [
+												"leg"
+											],
+											"amount": 5
+										}
+									],
+									"quantity": 1,
+									"calc": {
+										"extended_value": 400,
+										"extended_weight": "8 lb"
+									}
+								},
+								{
+									"id": "EXgEOwDLU__ks0548",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Action\\Action Equipment.eqp",
+										"id": "ER2q-LoBPIf9PTvz4"
+									},
+									"description": "Vest, Assault",
+									"reference": "ACT1:31",
+									"notes": "Flexible. DR+7 vs. piercing and cutting damage. Not concealable as clothing: common reaction -2.",
+									"tags": [
+										"Armor"
+									],
+									"value": 900,
+									"weight": "8 lb",
+									"features": [
+										{
+											"type": "dr_bonus",
+											"locations": [
+												"torso"
+											],
+											"amount": 5
+										},
+										{
+											"type": "dr_bonus",
+											"locations": [
+												"vitals"
+											],
+											"amount": 5
+										},
+										{
+											"type": "dr_bonus",
+											"locations": [
+												"groin"
+											],
+											"amount": 5
+										}
+									],
+									"quantity": 1,
+									"calc": {
+										"extended_value": 900,
+										"extended_weight": "8 lb"
+									}
+								},
+								{
+									"id": "EkBVHukpwnZbmm8Ua",
+									"source": {
+										"library": "richardwilkes/gcs_master_library",
+										"path": "Action\\Action Equipment.eqp",
+										"id": "ER2q-LoBPIf9PTvz4"
+									},
+									"description": "Vest, Assault",
+									"reference": "ACT1:31",
+									"notes": "Flexible. DR+7 vs. piercing and cutting damage. Not concealable as clothing: common reaction -2.",
+									"tags": [
+										"Armor"
+									],
+									"value": 900,
+									"weight": "8 lb",
+									"features": [
+										{
+											"type": "dr_bonus",
+											"locations": [
+												"torso"
+											],
+											"amount": 5
+										},
+										{
+											"type": "dr_bonus",
+											"locations": [
+												"vitals"
+											],
+											"amount": 5
+										},
+										{
+											"type": "dr_bonus",
+											"locations": [
+												"groin"
+											],
+											"amount": 5
+										}
+									],
+									"quantity": 1,
+									"children": [
+										{
+											"id": "ebeXEjxIxrs7Yq2y-",
+											"source": {
+												"library": "richardwilkes/gcs_master_library",
+												"path": "Action\\Action Equipment.eqp",
+												"id": "eLPIeMkWXsWxDPR90"
+											},
+											"description": "Vest, Assault: Trauma Plates",
+											"reference": "ACT1:31",
+											"tags": [
+												"Armor"
+											],
+											"value": 600,
+											"weight": "8 lb",
+											"features": [
+												{
+													"type": "dr_bonus",
+													"locations": [
+														"torso"
+													],
+													"amount": 23
+												},
+												{
+													"type": "dr_bonus",
+													"locations": [
+														"vitals"
+													],
+													"amount": 23
+												}
+											],
+											"quantity": 1,
+											"calc": {
+												"extended_value": 600,
+												"extended_weight": "8 lb"
+											}
+										}
+									],
+									"calc": {
+										"extended_value": 1500,
+										"extended_weight": "16 lb"
+									}
 								}
 							],
-							"quantity": 1,
 							"calc": {
-								"extended_value": 900,
-								"extended_weight": "8 lb"
+								"extended_value": 3325,
+								"extended_weight": "43 lb"
 							}
 						}
 					],
 					"calc": {
-						"extended_value": 2300,
-						"extended_weight": "18 lb"
+						"extended_value": 4325,
+						"extended_weight": "45 lb"
 					}
 				}
 			],
 			"calc": {
-				"extended_value": 38645,
-				"extended_weight": "23 lb"
+				"extended_value": 40670,
+				"extended_weight": "50 lb"
 			}
 		},
 		{
